@@ -4,33 +4,35 @@ function enviado(){
     var link = document.querySelector('input#linkv')
     var linkv = link.value
     var cod = undefined
+    var ifr = undefined
     //verifica se é um link do YouTube
     if(linkv.substring(8, 16) == 'youtu.be' || linkv.substring(0, 8) == 'youtu.be' || linkv.substring(12, 23) == 'youtube.com' || linkv.substring(4, 15) == 'youtube.com' || linkv.substring(0, 11) == 'youtube.com'){
-        alert('Tudo certo')
+        
         if(linkv.length == 28){
             cod = linkv.substring(17, 28)
-            alert(cod)
+            ifr = document.createElement('iframe')
+
         }else if(linkv.length == 20){
             cod = linkv.substring(9, 20)
-            alert(cod)
+            
         }else if(linkv.length == 41){
             cod = linkv.substring(30, 41)
-            alert(cod)
+            
         }else if(linkv.length == 33){
             cod = linkv.substring(22, 33)
-            alert(cod)
+            
         }else if(linkv.length == 29){
             cod = linkv.substring(18, 29)
-            alert(cod)
+            
         }else if(linkv.length == 43){
             cod = linkv.substring(32, 43)
-            alert(cod)
+            
         }else if(linkv.length == 35){
             cod = linkv.substring(24, 35)
-            alert(cod)
+            
         }else if(linkv.length == 31){
             cod = linkv.substring(20, 31)
-            alert(cod)
+            
         }else{
             alert('Esse não é um link do YouTube')
         }
