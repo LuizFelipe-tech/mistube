@@ -1,12 +1,12 @@
-h1#titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    color: red;
-}
 body{
     background-color: rgb(0, 110, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
-input{
-    border-radius: 10px;
+h1#titulo{
+    color: green;
+}
+input#up{
+    margin-left: 5px;
 }
 div#tud{
     text-align: center;
@@ -17,5 +17,4 @@ div#videos{
     width: 1160px;
     margin: auto;
     margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
