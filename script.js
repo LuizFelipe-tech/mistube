@@ -1,4 +1,4 @@
-var area = document.querySelector('div#videos')
+var areay = document.querySelector('div#videosy')
 var c = 0
 var c2 = 0
 var veri = undefined
@@ -13,7 +13,7 @@ function enviado(){
         var ifr = undefined
         var errodiv = document.getElementById('erro')
         //verifica se é um link do YouTube;
-        if(linkv.substring(8, 16) == 'youtu.be' || linkv.substring(0, 8) == 'youtu.be' || linkv.substring(12, 23) == 'youtube.com' || linkv.substring(4, 15) == 'youtube.com' || linkv.substring(0, 11) == 'youtube.com'){
+        if(linkv.startsWith('https://youtu.be') || linkv.startsWith('youtu.be') || linkv.startsWith('https://www.youtube.com/embed') || linkv.startsWith('www.youtube.com/embed') || linkv.startsWith('youtube.com/embed') || linkv.startsWith('https://www.youtube.com/watch?') || linkv.startsWith('www.youtube.com/watch?') || linkv.startsWith('youtube.com/watch?')){
             //verifica o estilo do link e cria o iframe
             function createIframe(cod){
                 if(coner == 0){
@@ -29,7 +29,7 @@ function enviado(){
                 ifr.setAttribute('frameborder', '0')
                 ifr.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share')
                 ifr.setAttribute('allowfullscreen', '')
-                area.appendChild(ifr)
+                areay.appendChild(ifr)
                 veri = 1
                 veriErro = 0
             }
@@ -85,14 +85,14 @@ function enviado(){
     if(c == 1){
         upVideo()
         if(veri == 1 && c2 == 0){
-            area.innerText = ''
+            areay.innerText = ''
             c2 = 1
             upVideo()            
         }
     }else{
         upVideo()
         if(veri == 1 && c2 == 0){
-            area.innerText = ''
+            areay.innerText = ''
             c2 = 1
             upVideo()
         }
@@ -102,3 +102,6 @@ function enviado(){
 //https://www.youtube.com/embed/VNEEEOx15sY
 //https://www.youtube.com/watch?v=VNEEEOx15sY
 /* <iframe width="560" height="315" src="https://www.youtube.com/embed/VNEEEOx15sY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>*/
+//https://vimeo.com/76979871
+/* <iframe src="https://player.vimeo.com/video/76979871?h=8272103f6e" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/76979871">The New Vimeo Player (You Know, For Videos)</a> from <a href="https://vimeo.com/staff">Vimeo Staff</a> on <a href="https://vimeo.com">Vimeo</a>.</p> */

@@ -1,0 +1,48 @@
+Introdução:
+Nesta atualização, foram realizadas alterações nos códigos HTML, CSS e JavaScript do seu site. O objetivo principal foi preparar o site para a próxima atualização, que envolverá a implementação do Vimeo. Abaixo, você encontrará um resumo das modificações realizadas em cada uma das partes.
+
+HTML:
+
+No código HTML, foram adicionados elementos e identificadores relacionados ao Vimeo, indicando a preparação para a implementação dessa funcionalidade no site.
+Foi criada uma nova divisão (div) com o ID videosv, que será responsável por exibir os vídeos do Vimeo.
+Foi adicionado um título (h1) com o ID vim para identificar os vídeos do Vimeo no site.
+CSS:
+
+No código CSS, foram incluídas regras de estilização para os elementos relacionados ao Vimeo.
+Foi adicionada uma classe .logo com estilos de margem esquerda para possíveis ajustes futuros.
+JavaScript:
+
+No código JavaScript, foram realizadas alterações para tornar o código mais legível e adicionar suporte ao Vimeo.
+A variável areay foi adicionada para selecionar a divisão onde os vídeos do Vimeo serão exibidos.
+A função enviado() foi modificada para incluir a lógica de exibição dos vídeos do Vimeo.
+A função upVideo() foi ajustada para verificar se o link é do Vimeo e criar os elementos de vídeo apropriados.
+Foi adicionada a função createIframe() para criar o elemento iframe com os atributos corretos para exibir vídeos do Vimeo.
+Foi criado um bloco condicional para verificar se o link fornecido é do Vimeo e criar o elemento iframe correspondente.
+Adicionalmente, foram feitas melhorias gerais no código para evitar repetições e lidar com possíveis erros ao inserir links inválidos.
+Conclusão:
+Nesta atualização, foram realizadas modificações no código HTML, CSS e JavaScript do seu site para prepará-lo para a implementação do Vimeo. Os elementos e identificadores relacionados ao Vimeo foram adicionados no HTML, estilos foram ajustados no CSS e a lógica de exibição de vídeos do Vimeo foi implementada no JavaScript. Com essas atualizações, o site está pronto para receber vídeos do Vimeo e proporcionar uma experiência mais rica aos usuários.
+
+Próximos passos:
+Na próxima atualização, será realizado o processo final de implementação do Vimeo no JavaScript, o que permitirá a exibição e reprodução dos vídeos do Vimeo no seu site. 
+
+Update Report - "Preparation for Vimeo"
+
+This update focuses on preparing the website for the upcoming implementation of Vimeo. Changes have been made in the HTML, CSS, and JS code to accommodate the integration of Vimeo videos alongside existing YouTube video support.
+
+HTML Changes:
+1. Added a new section in the HTML code for Vimeo videos, identified as "div#videosv".
+2. Created a new heading, "h1#vim", to distinguish Vimeo-related content.
+3. Updated the "div#videos" section to handle both YouTube and Vimeo videos seamlessly.
+
+CSS Changes:
+1. Adjusted the styling of the "div#videosv" section to match the existing design.
+2. Created a new class, ".logo", to handle the positioning of logos or brand images.
+3. Made general CSS enhancements to improve overall visual appeal.
+
+JavaScript Changes:
+1. Renamed the variable "areay" to "areav" to represent the Vimeo video section.
+2. Modified the function "enviado()" to handle Vimeo video links alongside YouTube links.
+3. Implemented checks and conditions to identify Vimeo video links and create corresponding iframes dynamically.
+4. Updated the error handling mechanism to display appropriate messages for both YouTube and Vimeo link validation.
+
+This update sets the foundation for incorporating Vimeo videos into your website seamlessly. The HTML and CSS changes provide the necessary structure and styling, while the JavaScript modifications allow for the detection and embedding of Vimeo video content.

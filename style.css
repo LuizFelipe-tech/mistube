@@ -1,9 +1,14 @@
+@font-face {
+    font-family: comic;
+    src: url(midia/Hey\ Comic.ttf);
+}
 body{
-    background-color: rgb(0, 110, 255);
+    background-image: linear-gradient(to right, #FF0000, #1AB7EA);
     font-family: Arial, Helvetica, sans-serif;
 }
 h1#titulo{
-    color: green;
+    color: #FFD700;
+    font-family: comic;
 }
 input#up{
     margin-left: 5px;
@@ -11,10 +16,30 @@ input#up{
 div#tud{
     text-align: center;
 }
-div#videos{
+div#videosy{
     background-color: white;
     border-radius: 10px;
     width: 1160px;
     margin: auto;
     margin-top: 10px;
+}
+div#videosv{
+    background-color: white;
+    border-radius: 10px;
+    width: 1160px;
+    margin: auto;
+    margin-top: 10px;
+}
+h1#you{
+    color: red;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: red;
+}
+h1#vim{
+    color: #1AB7EA;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: #1AB7EA;
+}
+.logo{
+    margin-left: 10px;
 }
