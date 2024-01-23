@@ -33,42 +33,66 @@ function enviado(){
                 veri = 1
                 veriErro = 0
             }
-            if(linkv.length == 28){
-                //https://youtu.be/VNEEEOx15sY
-                createIframe(linkv.substring(17, 28))
-            }else if(linkv.length == 20){
-                //youtu.be/VNEEEOx15sY
-                createIframe(linkv.substring(9, 20))
-            }else if(linkv.length == 41){
-                //https://www.youtube.com/embed/VNEEEOx15sY
-                createIframe(linkv.substring(30, 41))
-            }else if(linkv.length == 33){
-                //www.youtube.com/embed/VNEEEOx15sY
-                createIframe(linkv.substring(22, 33)) 
-            }else if(linkv.length == 29){
-                //youtube.com/embed/VNEEEOx15sY
-                createIframe(linkv.substring(18, 29))
-            }else if(linkv.length == 43){
-                //https://www.youtube.com/watch?v=VNEEEOx15sY
-                createIframe(linkv.substring(32, 43))
-            }else if(linkv.length == 35){
-                //www.youtube.com/watch?v=VNEEEOx15sY
-                createIframe(linkv.substring(24, 35))
-            }else if(linkv.length == 31){
-                //youtube.com/watch?v=VNEEEOx15sY
-                createIframe(linkv.substring(20, 31))
-            }else{
-                if(veriErro == 0){
-                    var erro = document.createElement('p')
-                    erro.id = 'errormen'
-                    erro.textContent = 'Esse não é um link do YouTube'
-                    errodiv.appendChild(erro)
-                    coner = 0
-                    veriErro--
-                    c--
+            switch(linkv.length){
+                case 28:
+                    //https://youtu.be/VNEEEOx15sY
+                    createIframe(linkv.substring(17, 28))
+                    break;
+                case 20:
+                    //youtu.be/VNEEEOx15sY
+                    createIframe(linkv.substring(9, 20))
+                    break;
+                case 41:
+                    //https://www.youtube.com/embed/VNEEEOx15sY
+                    createIframe(linkv.substring(30, 41))
+                    break;
+                case 33:
+                    //www.youtube.com/embed/VNEEEOx15sY
+                    createIframe(linkv.substring(22, 33)) 
+                    break;
+                case 29:
+                    //youtube.com/embed/VNEEEOx15sY
+                    createIframe(linkv.substring(18, 29))
+                    break;
+                case 43:
+                    //https://www.youtube.com/watch?v=VNEEEOx15sY
+                    createIframe(linkv.substring(32, 43))
+                    break;
+                case 35:
+                    //www.youtube.com/watch?v=VNEEEOx15sY
+                    createIframe(linkv.substring(24, 35))
+                    break;
+                case 31:
+                    //youtube.com/watch?v=VNEEEOx15sY
+                    createIframe(linkv.substring(20, 31))
+                    break;
+                case 48:
+                    //https://youtu.be/lQskYmoXVs8?si=GCvsvfI3iHSBYSs1
+                    createIframe(linkv.substring(17, 28))
+                    break;
+                case 40:
+                    //youtu.be/lQskYmoXVs8?si=oxcfDafyv1_mysct
+                    createIframe(linkv.substring(9, 20))
+                    break;
+                case 61:
+                    //https://www.youtube.com/embed/lQskYmoXVs8?si=4hDTZ2pichKEpRi9
+                    createIframe(linkv.substring(30, 41))
+                    break;
+                default:
+                    if(veriErro == 0){
+                        var erro = document.createElement('p')
+                        erro.id = 'errormen'
+                        erro.textContent = 'Esse não é um link do YouTube'
+                        erro.style.fontWeight = 'bold'
+                        erro.style.color = 'red'
+                        errodiv.appendChild(erro)
+                        coner = 0
+                        veriErro--
+                        c--
+                    }
             }
             }
-        }else{
+        else{
             if(veriErro == 0){
                 var erro = document.createElement('p')
                 erro.id = 'errormen'
