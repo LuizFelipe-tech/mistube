@@ -5,7 +5,7 @@ var c2 = 0
 var cv1 = 1
 var veri = undefined
 var coner = undefined
-var veriErro = 0
+var veriErro = 00
 var imgv = document.querySelector('img#imgv')
 var txtv = document.querySelector('p#txtv')
 function enviado(){
