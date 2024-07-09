@@ -5,7 +5,7 @@ var c2 = 0
 var cv1 = 1
 var veri = undefined
 var coner = undefined
-var veriErro = 00
+var veriErro = 0
 var imgv = document.querySelector('img#imgv')
 var txtv = document.querySelector('p#txtv')
 function enviado(){
@@ -164,6 +164,14 @@ function enviado(){
                         }
                         createIframeV(linkv.substring(23, 31))
                     }
+                    break;
+                case 27:
+                    //https://vimeo.com/951125378
+                    if(cv1 == 1){
+                        areav.innerHTML = ''
+                        cv1 = 2
+                    }
+                    createIframeV(linkv.substring(18, 27))
                     break;
             }
         }

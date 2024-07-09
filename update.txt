@@ -1,26 +1,16 @@
+MISTUBE 2.O.3
+
 PORTUGUÊS
 Introdução:
-Nesta atualização, foram realizadas alterações no JavaScript do meu site. O objetivo principal melhorar a legibilidade e adicionar suporte a novos tipos de link do YouTube. Abaixo, você encontrará um resumo das modificações realizadas em cada uma das partes.
-
-Foi adicionado a verificação de link os 2 novos tipos de link no 'if' da linha 16
-Foi trocado o bloco condicional else... if... por um bloco switch..., adicionando um total de 11 case mais um case default
-Foi adicionado uma estilização ao link inválido da primeira estrutura condicional if... A estilização consiste em deixar o texto da div "erro" em negrito e vermelho
-Conclusão:
-Nessa atualização foram adicionadas melhorias no estilo dos elementos, legibilidade do código. Com essas atualizações, o site finalizou a implementação de suporte ao YouTube.
-
-Próximos passos:
-Na próxima atualização, espera-se realizadr o processo final de implementação do Vimeo no JavaScript, o que permitirá a exibição e reprodução dos vídeos do Vimeo no site. 
+Esta atualização corrige um problema com a criação de iframes do Vimeo.
+A atualização apenas adiciona novas linhas de código. Não foi alterada nenhuma linha de código anterior
+As adições estão entre as linhas 168 e 175.
+Foi adicionado suporte para links do Vimeo cujo comprimento é igual a 27.
 
 ENGLISH
 
-Introduction
-In this update, changes have been made to the JavaScript on my site. The main aim is to improve readability and add support for new YouTube link types. Below you'll find a summary of the changes made to each part.
-
-Added link checking for the 2 new link types in the 'if' of line 16
-Changed the conditional block else... if... block for a switch... block, adding a total of 11 cases plus a default case
-A stylization has been added to the invalid link in the first if... conditional structure. The stylization consists of making the text of the "error" div bold and red
-Conclusion
-In this update, improvements were made to the style of the elements and the readability of the code. With these updates, the site has finalized the implementation of YouTube support.
-
-Next steps:
-In the next update, the final process of implementing Vimeo in JavaScript is expected to take place, which will allow Vimeo videos to be displayed and played on the site.
+Introduction:
+This update fixes an issue with the creation of Vimeo's iframes.
+The update only adds new lines of code. Was not changed any previous line of code
+The additions are between lines 168 and 175.
+Was added support for Vimeo links whose lengths are equal to 27.

@@ -1,7 +1,7 @@
 # Português
 
 ## Mistube
-Este é um projeto HTML, CSS e JavaScript chamado Mistube. É um aplicativo web que permite o envio e reprodução de vídeos do YouTube.
+Este é um projeto HTML, CSS e JavaScript chamado Mistube. É um aplicativo web que permite o envio e reprodução de vídeos do YouTube e Vimeo.
 
 ### Estrutura do Código
 O código está organizado da seguinte maneira:
@@ -10,21 +10,21 @@ O arquivo HTML (index.html) contém a estrutura básica da página. Ele inclui o
 
 O arquivo CSS (style.css) contém as regras de estilo para personalizar a aparência da página. Ele define propriedades como cores de fundo, fontes e estilos de elementos específicos.
 
-O arquivo JavaScript (script.js) contém a lógica do aplicativo. Ele manipula os elementos da página, como o campo de entrada de link de vídeo e a exibição dos vídeos enviados. Além disso, possui funções para validar os links do YouTube e criar elementos iframe para reprodução dos vídeos.
+O arquivo JavaScript (script.js) contém a lógica do aplicativo. Ele manipula os elementos da página, como o campo de entrada de link de vídeo e a exibição dos vídeos enviados. Além disso, possui funções para validar os links do YouTube e Vimeo e criar elementos iframe para reprodução dos vídeos.
 
 A pasta midia contém arquivos de mídia, como imagens de logotipos utilizados na página.
 
 ### Funcionalidades
-O Mistube permite que os usuários insiram um link de vídeo do YouTube e o reproduza na página. Ele utiliza a API do YouTube para incorporar o vídeo usando um elemento iframe. Quando um link de vídeo válido é inserido e enviado, o vídeo é exibido na seção correspondente. Se forem enviados vários vídeos, a seção é atualizada para mostrar apenas o último vídeo enviado.
+O Mistube permite que os usuários insiram um link de vídeo do YouTube ou Vimeo e o reproduza na página. Ele utiliza a API do YouTube e Vimeo para incorporar o vídeo usando um elemento iframe. Quando um link de vídeo válido é inserido e enviado, o vídeo é exibido na seção correspondente. Se forem enviados vários vídeos, a seção é atualizada para mostrar apenas o último vídeo enviado.
 
 ### Como Usar
 Abra o arquivo index.html em um navegador da web compatível.
 
-No campo "Link do vídeo", insira o link de um vídeo do YouTube.
+No campo "Link do vídeo", insira o link de um vídeo do YouTube ou Vimeo.
 
 Clique no botão "Upload" para enviar o vídeo.
 
-O vídeo será incorporado e exibido na seção correspondente ("YouTube").
+O vídeo será incorporado e exibido na seção correspondente.
 
 Você pode repetir o processo para enviar mais vídeos.
 
@@ -63,7 +63,7 @@ Essa nomenclatura de versionamento nos permite comunicar claramente o impacto de
 
 ## Mistube
 
-This is an HTML, CSS, and JavaScript project called Mistube. It is a web application that allows for uploading and playback of YouTube videos.
+This is an HTML, CSS, and JavaScript project called Mistube. It is a web application that allows for uploading and playback of YouTube and Vimeo videos.
 
 ### Code Structure
 
@@ -73,29 +73,29 @@ The code is organized as follows:
 
 - The CSS file (`style.css`) contains the style rules to customize the appearance of the page. It defines properties like background colors, fonts, and styles for specific elements.
 
-- The JavaScript file (`script.js`) contains the application logic. It manipulates page elements such as the video link input field and the display of uploaded videos. It also includes functions to validate YouTube links and create iframe elements for video playback.
+- The JavaScript file (`script.js`) contains the application logic. It manipulates page elements such as the video link input field and the display of uploaded videos. It also includes functions to validate YouTube and Vimeo links and create iframe elements for video playback.
 
 - The `media` folder contains media files such as logo images used on the page.
 
 ### Features
 
-Mistube allows users to input a YouTube video link and play it on the page. It utilizes the YouTube API to embed the video using an iframe element. When a valid video link is entered and submitted, the video is displayed in the corresponding section. If multiple videos are submitted, the section is updated to show only the latest uploaded video.
+Mistube allows users to input a YouTube and Vimeo video links and play it on the page. It utilizes the YouTube and Vimeo API to embed the video using an iframe element. When a valid video link is entered and submitted, the video is displayed in the corresponding section. If multiple videos are submitted, the section is updated to show only the latest uploaded video.
 
 ### How to Use
 
 1. Open the `index.html` file in a compatible web browser.
 
-2. In the "Video Link" field, enter a YouTube video link.
+2. In the "Video Link" field, enter a YouTube or Vimeo video link.
 
 3. Click the "Upload" button to submit the video.
 
-4. The video will be embedded and displayed in the corresponding section ("YouTube").
+4. The video will be embedded and displayed in the corresponding section.
 
 5. You can repeat the process to upload more videos.
 
 ### Final Notes
 
-Mistube is a simple project that demonstrates the embedding of YouTube videos in a web page. Feel free to explore and modify the code to fit your needs. Enjoy exploring and sharing videos using Mistube!
+Mistube is a simple project that demonstrates the embedding of YouTube and Vimeo videos in a web page. Feel free to explore and modify the code to fit your needs. Enjoy exploring and sharing videos using Mistube!
 
 ## Update Naming Convention
 
